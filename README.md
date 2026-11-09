@@ -3,7 +3,7 @@
 [![License: GPL-3.0-only](https://img.shields.io/badge/License-GPL--3.0--only-blue.svg)](LICENSE)
 ![Status: pre-release](https://img.shields.io/badge/status-pre--release-orange)
 
-A ROS 2 module that records an operator's task demonstration — RGB-D video and audio narration — as a single synchronised, self-describing demonstration package.
+A ROS 2 module that records an operator's task demonstration (RGB-D video and audio narration) as one synchronised demonstration package.
 
 > **Status:** this repository is being prepared. The first public release, with source code, installation guide and a runnable example, is planned for **June 2027**.
 
@@ -24,31 +24,19 @@ flowchart LR
 
 ## Features
 
-*To be completed with the first release.*
+- Records a demonstration through a single ROS 2 action, with progress feedback.
+- Stores video, depth and audio as one synchronised, self-describing package.
+- Designed to feed skill-synthesizer, which turns the demonstration into a draft skill.
 
 ## Requirements
 
-*To be completed with the first release* (ROS 2 Jazzy on eProsima Vulcanexus; Ubuntu 24.04).
-
-## Installation
-
-*To be completed with the first release.*
+- **OS:** Ubuntu 24.04.
+- **ROS 2:** Jazzy (eProsima Vulcanexus).
+- **Python:** 3.12.
 
 ## Usage
 
-*To be completed with the first release* — including a minimal "hello world" example and a basic demo.
-
-## Known limitations
-
-*To be completed with the first release.*
-
-## Third-party notices
-
-*To be completed with the first release.*
-
-## Contributing
-
-Issues and suggestions are welcome. Code contributions will be accepted after the first release. Contributors will be asked to sign a Contributor License Agreement that gives euroDAO SAS the right to relicense the contribution under GPL-3.0-only or under a later, more permissive licence.
+The recorder is used through a ROS 2 action. Interfaces, installation and a runnable example will be documented with the first release.
 
 ## License
 
